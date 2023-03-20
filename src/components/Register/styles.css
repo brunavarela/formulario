@@ -8,7 +8,7 @@
   justify-content: center;
 }
 
-.main-container-form--container {
+.form--container {
     width: 50%;
     display: flex;
     flex-direction: column;
