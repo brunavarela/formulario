@@ -8,7 +8,7 @@
   justify-content: center;
 }
 
-.form--container {
+.form-container {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -18,6 +18,13 @@
     padding: 40px 20px;
 }
 
+.form-container, .form-container .form-header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  flex-direction: column;
+}
 
 .main-container .image--container {
     display: flex;
@@ -33,7 +40,7 @@
     height: 400px;
 }
 
-.form-container .form--header {
+.form-container .form-header {
   display: flex;
   align-items: center;
   justify-content: center;

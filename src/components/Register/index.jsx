@@ -66,7 +66,7 @@ const Register = () => {
             transition={{ duration: 1 }}
         >
             <div className="main-container">
-                <form onSubmit={ handleSubmit(createUser) } className="form--container">
+                <form onSubmit={ handleSubmit(createUser) } className="form-container">
                     <div className="form--header">
                         <img src={YupImg} alt={YupImg} />
                     </div>
